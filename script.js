@@ -1,4 +1,6 @@
 document.getElementById('saveContact').addEventListener('click', function() {
+    console.log("Button clicked, starting vCard download...");
+    
     const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
