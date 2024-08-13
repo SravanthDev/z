@@ -12,8 +12,40 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.action-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #007BFF;
+}
+
+.action-button i {
+    margin: 0;
+    padding: 0;
 }
